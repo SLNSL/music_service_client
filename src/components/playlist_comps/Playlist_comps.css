@@ -1,0 +1,144 @@
+:root {
+    --main-color: rgba(99,23,36,1);
+}
+.album_section::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 20px;               /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: #121212;        /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #595959;    /* цвет плашки */      /* закругления плашки */
+    /*border: 3px solid orange;  !* padding вокруг плашки *!*/
+}
+
+
+
+
+
+
+
+.album_section {
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+    max-height: 500px;
+    overflow: scroll;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: unset;
+    max-width: 5200px;
+    background-color: rgba(0, 0, 0, 0.19);
+    scroll-behavior: smooth;
+    position: relative;
+    height: 400px;
+
+}
+
+
+.product-wrapper {
+    display: block;
+    float: left;
+    display: block;
+    border-radius: 3px;
+    position: relative;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    color: #474747;
+    z-index: 0;
+    width: 262px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+    padding-top: 105px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.album_section .product-wrapper {
+    min-width: 262px;
+
+}
+
+.album_cover {
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+    width: 230px;
+    height: 230px;
+    /*padding: 30px;*/
+    box-sizing: border-box;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.album_name {
+    color: white;
+    position: absolute;
+    top: calc(230px + 5%);
+    left: 15px;
+    font-family: Ubuntu Condensed;
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.album_streams {
+    color: white;
+    position: absolute;
+    top: calc(230px + 15%);
+    left: 15px;
+    font-family: Ubuntu Condensed;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.album_size {
+    color: white;
+    position: absolute;
+    top: calc(230px + 20%);
+    left: 15px;
+    font-family: Ubuntu Condensed;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.slide_button {
+    width: 60px !important;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    border: none;
+
+    /*top: -100px;*/
+    box-shadow:-4px 8px 4px rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
+    /*position:absolute;*/
+    border-top-left-radius:57px;
+    border-top-right-radius:57px;
+    border-bottom-left-radius:57px;
+    border-bottom-right-radius:57px;
+}
+
+.prev {
+    left: 35px;
+    /*transform: translateY(190%);*/
+    top: calc(50% - 35px);
+}
+.next {
+
+    /*top: 50%;*/
+    right: 36px;
+    top: calc(50% - 35px);
+}

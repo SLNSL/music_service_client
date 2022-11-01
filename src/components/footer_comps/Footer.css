@@ -1,0 +1,44 @@
+
+.footer {
+
+    background-color: rgba(15, 15, 15, 1);
+    /*background-color: white;*/
+    height: 83px !important;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 12px;
+    width: 100%;
+    z-index: 999;
+    /*margin-bottom: 110px !important;*/
+}
+
+
+.logo {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    align: right;
+    background-image: url(../../images/6613186_music_sound_wave_waveform_icon_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search_box {
+    width: 100%;
+}
+
+.profile_pic {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background-image: url(../../images/8324223_ui_essential_app_avatar_profile_icon_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+

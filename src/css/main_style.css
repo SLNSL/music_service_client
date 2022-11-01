@@ -1,0 +1,234 @@
+/*:root {*/
+/*    --main-color: rgba(99,23,36,1);*/
+/*}*/
+
+/*!* width *!*/
+/*::-webkit-scrollbar {*/
+/*    width: 60px;*/
+/*}*/
+
+/*.album_section::-webkit-scrollbar {*/
+/*    display: none;  !* Safari and Chrome *!*/
+/*}*/
+
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*    box-shadow: rgba(22.31249962002039, 22.31249962002039, 22.31249962002039, 0.7);*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background: rgba(22.31249962002039, 22.31249962002039, 22.31249962002039, 0.2);*/
+/*    border-radius: 60px;*/
+/*}*/
+
+
+/*.col, .col-3, .col-1, .col-2, .col-4, .col-6, .col-12 {*/
+/*    !*border: solid 0.2px greenyellow;*!*/
+/*    padding: 0px 10px 0px 10px;*/
+/*    text-align: center;*/
+
+/*}*/
+
+/*.album_section {*/
+/*    border-top-left-radius: 31px;*/
+/*    border-top-right-radius: 31px;*/
+/*    border-bottom-left-radius: 31px;*/
+/*    border-bottom-right-radius: 31px;*/
+/*    max-height: 500px;*/
+/*    overflow: scroll;*/
+/*    display: flex;*/
+/*    overflow-x: auto;*/
+/*    overflow-y: unset;*/
+/*    max-width: 5200px;*/
+/*    background-color: rgba(0, 0, 0, 0.19);*/
+/*    scroll-behavior: smooth;*/
+/*    position: relative;*/
+/*}*/
+
+/*.row-with-center-elements{*/
+/*    margin: auto;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.row {*/
+/*    border: solid 0.2px rgba(2,2,255,0.6);*/
+/*    margin-bottom: 1em; !* растояние между ровами*!*/
+/*}*/
+/*.main-row {*/
+/*    margin: 1em 100px 0 100px !important;*/
+/*    !*margin: 0;*!*/
+/*    !*margin-bottom: 1em;*!*/
+/*}*/
+
+/*.container-fluid {*/
+/*    background-image: radial-gradient(circle, rgba(85,22,32,1) 0%, rgba(99,23,36,1) 44%, rgba(33,8,12,1) 81%);*/
+/*    background-color: greenyellow;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.header {*/
+/*    background-color: rgba(15, 15, 15, 1);*/
+/*    !*background-color: darkgray;*!*/
+/*    min-height: 60px;*/
+/*    vertical-align: middle;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.Anton_text {*/
+/*    color: rgba(255, 255, 255, 1);*/
+/*    font-family: Anton;*/
+/*    text-align: center;*/
+/*    font-size: 39px;*/
+/*    letter-spacing: 0;*/
+/*    width: 10%;*/
+/*    line-height: normal;*/
+/*}*/
+
+/*.logo {*/
+/*    width: 31px;*/
+/*    height: 31px;*/
+/*    position: absolute;*/
+/*    left: 0px;*/
+/*    top: 12px;*/
+/*    align: right;*/
+/*    background-image: url(../images/6613186_music_sound_wave_waveform_icon_1.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.search_box {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.profile_pic {*/
+/*    width: 19px;*/
+/*    height: 19px;*/
+/*    display: inline-block;*/
+/*    background-image: url(../images/8324223_ui_essential_app_avatar_profile_icon_1.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+
+/*.product-wrapper {*/
+/*    display: block;*/
+/*    float: left;*/
+/*    display: block;*/
+/*    border-radius: 3px;*/
+/*    position: relative;*/
+/*    margin: 0 20px 0 0;*/
+/*    text-decoration: none;*/
+/*    color: #474747;*/
+/*    z-index: 0;*/
+/*    width: 262px;*/
+/*    height: 370px;*/
+/*    background-color: rgba(0, 0, 0, 0.24);*/
+/*    border-top-left-radius: 31px;*/
+/*    border-top-right-radius: 31px;*/
+/*    border-bottom-left-radius: 31px;*/
+/*    border-bottom-right-radius: 31px;*/
+/*    !*transition: width .2s;*!*/
+/*    padding-top: 105px;*/
+/*}*/
+
+/*.album_section .product-wrapper {*/
+/*    min-width: 262px;*/
+/*    !*height: 370px;*!*/
+/*    !*line-height: 370px;*!*/
+
+/*}*/
+
+/*.album_cover {*/
+/*    border-top-left-radius: 31px;*/
+/*    border-top-right-radius: 31px;*/
+/*    border-bottom-left-radius: 31px;*/
+/*    border-bottom-right-radius: 31px;*/
+/*    width: 230px;*/
+/*    height: 230px;*/
+/*    !*padding: 30px;*!*/
+/*    box-sizing: border-box;*/
+/*    position: absolute;*/
+/*    top: 15px;*/
+/*    left: 15px;*/
+/*}*/
+
+/*.album_name {*/
+/*    color: white;*/
+/*    position: absolute;*/
+/*    top: 250px;*/
+/*    left: 15px;*/
+/*    font-family: "Pacifico";*/
+/*    font-weight: 900;*/
+/*    font-size: 19px;*/
+/*}*/
+
+/*.album_streams {*/
+/*    color: white;*/
+/*    position: absolute;*/
+/*    top: 280px;*/
+/*    left: 15px;*/
+/*    font-family: "Pacifico";*/
+/*    font-weight: 400;*/
+/*    font-size: 14px;*/
+/*}*/
+
+/*.album_size {*/
+/*    color: white;*/
+/*    position: absolute;*/
+/*    top: 305px;*/
+/*    left: 15px;*/
+/*    font-family: "Pacifico";*/
+/*    font-weight: 400;*/
+/*    font-size: 14px;*/
+/*}*/
+
+
+/*.table {*/
+/*    max-width: 500px;*/
+/*    margin: 0 auto;*/
+/*    border: solid 0.2px rebeccapurple;*/
+/*}*/
+
+/*.text {*/
+/*    text-align: left;*/
+/*    color: white;*/
+/*    top: 250px;*/
+/*    left: 15px;*/
+/*    font-family: Ubuntu Condensed;*/
+/*    font-weight: 900;*/
+/*    font-size: 26px;*/
+/*}*/
+
+/*.slide_button {*/
+/*    width: 60px !important;*/
+/*    height: 70px;*/
+/*    position: absolute;*/
+/*    display: flex;*/
+/*    border: none;*/
+
+/*    !*top: -100px;*!*/
+/*    box-shadow:-4px 8px 4px rgba(0, 0, 0, 0.6);*/
+/*    background-color: rgba(255, 255, 255, 0.9);*/
+/*    !*position:absolute;*!*/
+/*    border-top-left-radius:57px;*/
+/*    border-top-right-radius:57px;*/
+/*    border-bottom-left-radius:57px;*/
+/*    border-bottom-right-radius:57px;*/
+/*}*/
+
+/*.prev {*/
+/*    left: 35px;*/
+/*    !*transform: translateY(190%);*!*/
+/*    top: calc(50% - 35px);*/
+/*}*/
+/*.next {*/
+
+/*    !*top: 50%;*!*/
+/*    right: 36px;*/
+/*    top: calc(50% - 35px);*/
+/*}*/
