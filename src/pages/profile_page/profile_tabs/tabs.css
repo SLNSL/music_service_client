@@ -1,0 +1,33 @@
+.tab > .grid {
+    /*border: 2px solid #0051ff;*/
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100% 100%;
+
+}
+
+.tab > .grid > .grid-item {
+    /*height: calc(100px - 50px);*/
+}
+
+.create-album-content, .album-preview{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-flex-column-left {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.tab-panel{
+    max-height: calc(100%);
+    overflow-y: auto;
+}

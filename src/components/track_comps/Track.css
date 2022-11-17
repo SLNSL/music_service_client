@@ -1,0 +1,66 @@
+.track_small {
+    /*background-color: rgb(253, 253, 253);*/
+    margin-top: 5px;
+}
+
+
+
+.track_small:hover {
+    /*background-color: rgba(238, 12, 106, 0.91);*/
+    /*cursor: pointer;*/
+}
+
+.track {
+    background-color: rgba(0, 0, 0, 0.06);
+    margin-top: 5px;
+}
+
+.track:hover {
+    background-color: rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+}
+
+.text-box > .track_artist {
+    color: #afafaf;
+    font-family: Ubuntu Condensed;
+    font-weight: 900;
+    font-size: 15px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-box {
+    display: table;
+    text-align: center;
+}
+
+.text-box > .track_name {
+    color: #ffffff;
+    font-family: Ubuntu Condensed;
+    font-weight: 900;
+    font-size: 15px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.white-bttn{
+    font-size: 20px;
+    color: rgb(202, 202, 202);
+    cursor: pointer;
+}
+
+.white-bttn:hover{
+    color: white;
+}
+
+.track_imag_div > .imag {
+    height: 44px;
+    width: 44px;
+    cursor: pointer;
+}
+
+.track_imag_div > .imag:hover{
+    filter: brightness(1.3);
+    height: 48px !important;
+    width: 48px !important;
+}

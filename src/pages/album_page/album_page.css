@@ -1,0 +1,113 @@
+
+.photo-parent {
+    /*width: 100%;*/
+    /*padding-top: 100%;*/
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.photo {
+    /*height: 100% !important;*/
+    /*width: 70%  !important;*/
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    object-fit: cover;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu Condensed;
+    font-weight: 900;
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+
+/*  head and foot 20vh       */
+.grid {
+    /*border: 2px solid #0051ff;*/
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 77vh 77vh;
+
+}
+
+.grid-item {
+    /*border: 2px solid #0051ff;*/
+    text-align:center;
+    font-size:35px;
+    margin: 8px;
+
+
+}
+
+.section {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+
+.grid-item:nth-child(3) {
+    grid-area: b;
+}
+
+.left-grid {
+    text-align:center;
+    display: grid;
+    grid-template-areas: "a" "b";
+    grid-template-columns: 100%;
+    grid-template-rows: 37vh 37vh;
+}
+
+.grid-item > * > .profile-pick {
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 7.75%;
+}
+
+.grid-item > * > .cover {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 7.75%;
+}
+
+
+.text {
+
+    color: white;
+    font-family: Ubuntu Condensed;
+    font-weight: 900;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.left-grid.grid-item span {
+    margin: 0 22px;
+    word-wrap: break-word;
+}
+
+.left-grid.grid-item {
+    line-height: 11px;
+}

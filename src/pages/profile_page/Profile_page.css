@@ -1,0 +1,13 @@
+.grid {
+    /*border: 2px solid #0051ff;*/
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 77vh 77vh;
+
+}
+
+MuiTabs-indicator {
+    color:red;
+    left: 20px
+}
