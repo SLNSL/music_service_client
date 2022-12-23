@@ -1,13 +1,13 @@
 # Скриншоты интерфейса
 
 ## Главное меню
-![image](https://user-images.githubusercontent.com/74766707/209325776-ab0dc346-0d9e-4013-ba73-57f76a7720f0.png)
+![image](https://user-images.githubusercontent.com/74766707/209326659-75171d83-0aaf-4d47-9b66-0a0751ffaefa.png)
 
 ## Страница альбома
-![image](https://user-images.githubusercontent.com/74766707/209325837-f6e239df-0585-4536-a3bd-622261e0c875.png)
+![image](https://user-images.githubusercontent.com/74766707/209326738-cdd9a283-3d6b-4d67-b494-0abbaadfda56.png)
 
 ## Страница артиста
-![image](https://user-images.githubusercontent.com/74766707/209325950-7dfc9c28-5dae-46d5-a2f1-0be157b32112.png)
+![image](https://user-images.githubusercontent.com/74766707/209326809-106dba61-88b5-4c7a-9954-76af0a32ea0c.png)
 
 ## Страница администратора
 ![image](https://user-images.githubusercontent.com/74766707/209326154-7003c267-da33-4b53-9780-3c54f2a1de1e.png)
